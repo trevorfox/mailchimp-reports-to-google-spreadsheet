@@ -9,7 +9,7 @@
 
 function chimpReport() {
   
-  var API_KEY = '113a47a852b1bf8c813db8ca0ab9ff54-us4';
+  var API_KEY = 'yourapikeygoeshere';
   var REPORT_START_DATE;
   var REPORT_END_DATE;
   
