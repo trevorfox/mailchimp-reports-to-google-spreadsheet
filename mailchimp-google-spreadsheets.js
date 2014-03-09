@@ -16,7 +16,8 @@ function chimpReport() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getActiveSheet();  
   
-  var api = 'https://us4.api.mailchimp.com/2.0';
+  var dc = API_KEY.slice(-3);
+  var api = 'https://'+ dc +'.api.mailchimp.com/2.0';
   var campaignList = '/campaigns/list.json' 
   var reports = '/reports/summary.json' 
   
